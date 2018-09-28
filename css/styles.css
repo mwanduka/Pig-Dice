@@ -1,0 +1,9 @@
+img{
+  float: right;
+}
+.console{
+  display: none;
+}
+body{
+  background-image: url(https://is5-ssl.mzstatic.com/image/thumb/Purple6/v4/b1/94/af/b194affa-aaf7-243e-891f-436b0728cc41/source/512x512bb.jpg);
+}
