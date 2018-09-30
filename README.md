@@ -35,7 +35,7 @@ This application allows two contester to play a game of Pig Dice.
 * jQuery
 
 ## Live link to the site
-https://mwanduka.github.io/Pig-Dice/
+https://mwanduka.github.io/Pig-Dice-Game/
 
 
 ## Support and contact details
