@@ -46,5 +46,5 @@ E-mail address:mwandukastephen20@gmail.com
 
 * MIT
 
-Copyright (c) 2016 **Mwanduka Stephen**
+Copyright (c) 2018 **Mwanduka Stephen**
 
