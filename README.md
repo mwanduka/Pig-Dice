@@ -1,7 +1,7 @@
 # Pig-Dice Game
 This is a game meant to be played by two people, this is by rolling and holding counting points upto 100 and their the champion is found.
 
-#### contributors
+#### Contributors
 **By Mwanduka Stephen**
 
 ## Description
