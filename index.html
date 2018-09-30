@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>PIG DICE GAME</title>
+  </head>
+  <body background="pig.jpeg" width="1000" height="800">
+
+    <div class="start-menu container">
+      <div class="jumbotron">
+        <h1>Ok lets roll the dice</h1>
+          <form id="contester-1">
+            <div class="form-group">
+              <label for="contester1Name">Contester 1 Name:</label>
+              <input required class="contester1Name form-control" type="text">
+            </div>
+          </form>
+          <form id="contester-2">
+            <div class="form-group">
+              <label for="contester2Name">Contester 2 Name:</label>
+              <input required class="contester2Name form-control" type="text">
+            </div>
+          </form>
+          <button id="start" class="btn-success btn">Start</button>
+      </div>
+    </div>
+
+    <div class="contester-console container">
+        <button id="new-play" class="btn-warning btn">NEW PLAY</button>
+        <div class = "row">
+          <div class="col-md-6">
+            <h2>Contester 1: <span id ="contester1Name"><span></h2>
+              <button id="contester1-roll" class="btn-primary btn">Roll</button>
+              <button id="contester1-hold" class="btn-primary btn">Hold</button>
+            <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+            <p>Round Total: <span id="round-total-1"></span></p>
+            <p>Total Point: <span id="total-point-1"></span></p>
+          </div>
+
+        <div class="col-md-6">
+          <h2>Contester 2: <span id ="contester2Name"><span></h2>
+            <button id="contester2-roll" class="btn-secondary btn">Roll</button>
+            <button id="contester2-hold" class="btn-secondary btn">Hold</button>
+            <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+            <p>Round Total: <span id="round-total-2"></span></p>
+            <p>Total Point: <span id="total-point-2"></span></p>
+            <input  class="button" id="reset" value="Reload" onclick="reload()">
+        </div>
+        </div>
+      </div>
+  </body>
+</html>
