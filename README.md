@@ -44,6 +44,6 @@ E-mail address:mwandukastephen20@gmail.com
 
 ### License
 
-* MIT*
+* MIT
 
 Copyright (c) 2016 **Mwanduka Stephen**
